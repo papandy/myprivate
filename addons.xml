@@ -398,9 +398,9 @@ https://www.kodiman.company/</description>
 
 <addon id="repository.myrepo" name="[COLOR red][B]my KODI Add-ons[/B][/COLOR]" version="1" provider-name="me">
 	<extension point="xbmc.addon.repository" name="my Kodi Add-ons Repository">
-		<info compressed="false">http://4309papandy.42web.io/repo/addons.xml</info>
-		<checksum>http://4309papandy.42web.io/repo/addons.xml.md5</checksum>
-		<datadir zip="true">http://4309papandy.42web.io/repo/</datadir>
+		<info compressed="false">https://raw.githubusercontent.com/papandy/myprivate/main/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/papandy/myprivate/main/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/papandy/myprivate/main/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>Install my Add-ons</summary>
