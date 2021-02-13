@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.audio.CannaPower" name="CannaPower" version="1.0.1" provider-name="skatulskijean">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>audio</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform><language>de</language><license>GPL 2.0</license>
+   		<summary lang="de">CannaPower</summary>
+		<description lang="en">
+			CannaPower streams music-charts and Year-Charts from your Country.
+		</description>
+	</extension>
+</addon>
+
+<addon
+    id="plugin.audio.darkstations"
+    name="DarkStations"
+    version="1.0.3"
+    provider-name="Papandy / orig. by SH Germania">
+    <requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>audio</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary>Radiosender der Gothic-Szene</summary>
+		<description>
+			Dies ist ein Addon für alle die, die Musik aus der Schwarzen/Gothik-Szene gerne hören. Es stellt euch schnell und unkompliziert einige Radiosender der Szene zur Verfügung. So z.Bsp.: Mera Luna FM, Radio Schwarze Welle, Radio Hazzard of Darkness und einige mehr.
+Der originale Code ist von SH Germania, ich habe für dieses Addon nur den Code modifiziert!
+		</description>
+		<license></license>
+		<language></language>
+		<source></source>
+		<email></email>
+	</extension>
+</addon>
+
+<addon id="plugin.audio.swelle"
+       name="Schwarze Welle"
+       version="0.1"
+       provider-name="Papandy">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+	<summary> Radio Schwarze Welle</summary>
+	<description> Radio Schwarze Welle</description>
+  </extension>
+</addon>
+
+<addon id="plugin.video.tvone" name="tvOne" version="25" provider-name="RACC">
+  <requires>
+    <import addon="xbmc.python" version="2.26.0"/>
+    <import addon="script.module.pycryptodome" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.kodi-six" />
+    <import addon="script.module.future" />
+    <import addon="script.module.routing" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <reuselanguageinvoker>true</reuselanguageinvoker>
+    <summary lang="en_gb">tvOne</summary>
+    <description lang="en_gb">tvOne</description>
+    <disclaimer lang="en_gb"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license>GPL-3.0</license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+    <assets></assets>
+  </extension>
+</addon>
+
+<addon id="plugin.video.tvone1" name="tvOne1" version="52" provider-name="RACC">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+    <import addon="xbmc.addon" version="17.0.0"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.kodi-six" />
+    <import addon="script.module.future" />
+    <import addon="script.module.routing" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <reuselanguageinvoker>true</reuselanguageinvoker>
+    <summary lang="en_gb">tvOne1</summary>
+    <description lang="en_gb">tvOne1</description>
+    <disclaimer lang="en_gb"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license>GPL-3.0-only</license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+    <assets></assets>
+  </extension>
+</addon>
+
+<addon id="plugin.video.tvone11" name="tvOne11" version="24" provider-name="RACC">
+  <requires>
+    <import addon="xbmc.python" version="2.26.0"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.kodi-six" />
+    <import addon="script.module.future" />
+    <import addon="script.module.routing" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <reuselanguageinvoker>true</reuselanguageinvoker>
+    <summary lang="en_gb">tvOne11</summary>
+    <description lang="en_gb">tvOne11</description>
+    <disclaimer lang="en_gb"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license>GPL-3.0</license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+    <assets></assets>
+  </extension>
+</addon>
+
+<addon id="plugin.video.tvone111" name="tvOne111" version="20" provider-name="RACC">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+    <import addon="xbmc.addon" version="17.0.0"/>
+    <import addon="script.module.pyamf" />
+    <import addon="script.module.kodi-six" />
+    <import addon="script.module.future" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.routing" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <reuselanguageinvoker>true</reuselanguageinvoker>
+    <summary lang="en_gb">tvOne111</summary>
+    <description lang="en_gb">tvOne111</description>
+    <disclaimer lang="en_gb"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license>GPL-3.0-only</license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+    <assets></assets>
+  </extension>
+</addon>
+
+<addon id="plugin.video.tvone1112" name="tvOne1112" version="110" provider-name="RACC">
+  <requires>
+    <import addon="xbmc.python" version="2.26.0" />
+    <import addon="script.module.pycryptodome" />
+    <import addon="script.module.dateutil" />
+    <import addon="script.module.pyamf" />
+    <import addon="script.module.kodi-six" />
+    <import addon="script.module.future" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.routing" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <reuselanguageinvoker>true</reuselanguageinvoker>
+    <summary lang="en_gb">tvOne1112</summary>
+    <description lang="en_gb">tvOne1112</description>
+    <disclaimer lang="en_gb"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license>GPL-3.0-only</license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+    <assets></assets>
+  </extension>
+</addon>
+
+<addon id="repository.ctrl_esc" name="[B][COLOR antiquewhite] Control [/B][/COLOR][B][COLOR red] Escape [/B][/COLOR][B][COLOR antiquewhite] Repository [/B][/COLOR]" version="3.0.3" provider-name="Ctrl_Esc">
+    <extension point="xbmc.addon.repository" name="Ctrl Esc Repository">
+		<info compressed="false">https://raw.githubusercontent.com/KDC-Community/kdc_git_repo/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/KDC-Community/kdc_git_repo/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/KDC-Community/kdc_git_repo/master/zips/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Ctrl_Esc Control Escape Repository</summary>
+        <description>Control and Escape Repo.Look behind the zips and have 4UN!..</description>
+        <platform>all</platform>
+
+    </extension>
+</addon>
+
+<addon id="repository.hsktooltime" name="[COLOR blue]HSK[/COLOR] TOOL [COLOR blue]TIME[/COLOR]" version="1.0.0" provider-name="[COLOR lime]GUIDO | SH Germany | HSK-DE[/COLOR]">
+    <extension point="xbmc.addon.repository" name="HSK TOOL TIME REPOSITORY">
+		<info compressed="false">https://raw.githubusercontent.com/kaffepausse71/hsktooltime/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/kaffepausse71/hsktooltime/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/kaffepausse71/hsktooltime/master/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>[COLOR blue]HSK[/COLOR] TOOL [COLOR blue]TIME[/COLOR] </summary>
+        <description>HSK TOOL TIME präsentiert eine kleinen Sammlung an erlesenen Musik,Video und weiteren Addons. </description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="repository.hsk_forever" name="[COLOR magenta]HSK FOREVER[/COLOR]" version="1.0.20" provider-name="[COLOR magenta]SH Germania | KODIMAN | HSK-DE[/COLOR]">
+    <extension point="xbmc.addon.repository" name="HSK FOREVER REPOSITORY">
+		<dir minversion="18.0.0">
+            <info compressed="false">https://downloads.guidos-skinbase.de/hsk_forever/addons.xml</info>
+		    <checksum>https://downloads.guidos-skinbase.de/hsk_forever/addons.xml.md5</checksum>
+		    <datadir zip="true">https://downloads.guidos-skinbase.de/hsk_forever/</datadir>
+		    <artdir>http://downloads.guidos-skinbase.de/hsk_forever_py3</artdir>
+        </dir>
+        <dir minversion="18.9.0">
+            <info compressed="false">https://downloads.guidos-skinbase.de/hsk_forever_py3/addons.xml</info>
+		    <checksum>https://downloads.guidos-skinbase.de/hsk_forever_py3/addons.xml.md5</checksum>
+		    <datadir zip="true">https://downloads.guidos-skinbase.de/hsk_forever_py3/</datadir>
+		    <artdir>http://downloads.guidos-skinbase.de/hsk_forever_py3</artdir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>[COLOR magenta]HSK FOREVER REPOSITORY[/COLOR]</summary>
+        <description>[COLOR magenta]
+
+Ein besonderer Dank geht an Guido Sasse,
+Loki 1979 und an Kodiman die mir stehts zur Seite standen.
+
+In diesem Sinne  HSK-FOREVER
+
+Kodimans Forum:
+http://www.kodiman.net[/COLOR]</description>
+        <platform>all</platform>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+			<screenshot>resources/screenshot001.jpg</screenshot>
+			<screenshot>resources/screenshot002.jpg</screenshot>
+			<screenshot>resources/screenshot003.jpg</screenshot>
+		</assets>
+    </extension>
+
+</addon>
+
+<addon id="repository.hsk_repo" name="[COLOR blue]HSK-DE Repository[/COLOR]" version="1.0.10" provider-name="Loki1979,HSK-DE Crew">
+	<extension point="xbmc.addon.repository" name="HSK-DE Repository">
+		<info compressed="false">https://downloads.guidos-skinbase.de/hsk_repo/addons.xml</info>
+		<checksum>https://downloads.guidos-skinbase.de/hsk_repo/addons.xml.md5</checksum>
+		<datadir zip="true">https://downloads.guidos-skinbase.de/hsk_repo/</datadir>
+	</extension>
+    <extension point="xbmc.addon.metadata">
+	<summary></summary>
+	<description></description>
+	<disclaimer></disclaimer>
+	<language></language>
+	<platform>all</platform>
+	<license></license>
+	<forum></forum>
+	<website></website>
+	<email></email>
+	<source></source>
+	<news></news>
+    <assets>
+		<icon>resources/icon.png</icon>
+		<fanart>resources/fanart.jpg</fanart>
+		<banner></banner>
+		<clearlogo></clearlogo>
+		<screenshot></screenshot>
+	</assets>
+	</extension>
+</addon>
+
+<addon id="repository.kodiman_public" name="[COLOR lime]KODIMANS PUBLIC REPOSITORY[/COLOR]" version="2.0.5" provider-name="[COLOR lime]KODIMAN | HSK-DE[/COLOR]">
+    <extension point="xbmc.addon.repository" name="KODIMANS PUBLIC REPOSITORY">
+    <dir>
+		<info compressed="false">http://wizard.kodiman.net/repository/new_repo/addons.xml</info>
+		<checksum>http://wizard.kodiman.net/repository/new_repo/addons.xml.md5</checksum>
+		<datadir zip="true">http://wizard.kodiman.net/repository/new_repo/</datadir>
+	</dir>
+    <dir>
+	    <info compressed="false">https://downloads.guidos-skinbase.de/hsk_repo/addons.xml</info>
+		<checksum>https://downloads.guidos-skinbase.de/hsk_repo/addons.xml.md5</checksum>
+		<datadir zip="true">https://downloads.guidos-skinbase.de/hsk_repo/</datadir>
+	</dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>[COLOR lime]KODIMANS PUBLIC REPOSITORY[/COLOR]</summary>
+        <description>Forum :
+https://www.kodiman.company/</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="repository.kodinerds" name="Kodinerds Addon Repo" version="7.0.1.1" provider-name="Kodinerds">
+    <requires>
+        <import addon="xbmc.addon" version="12.0.0"/>
+    </requires>
+    <extension point="xbmc.addon.repository" name="Kodinerds Addon Repo">
+        <dir>
+            <info compressed="true">https://repo.kodinerds.net/addons/addons.xml</info>
+            <checksum>https://repo.kodinerds.net/addons/addons.xml.md5</checksum>
+            <datadir zip="true">https://repo.kodinerds.net/addons</datadir>
+            <hashes>false</hashes>
+        </dir>
+        <dir minversion="18.9.9">
+            <info compressed="true">https://repo.kodinerds.net/addons/matrix/addons.xml</info>
+            <checksum>https://repo.kodinerds.net/addons/matrix/addons.xml.md5</checksum>
+            <datadir zip="true">https://repo.kodinerds.net/addons/matrix/zip/</datadir>
+            <hashes>false</hashes>
+        </dir>
+        <dir minversion="18.0.0" maxversion="18.9.0">
+            <info compressed="true">https://repo.kodinerds.net/addons/leia/addons.xml</info>
+            <checksum>https://repo.kodinerds.net/addons/leia/addons.xml.md5</checksum>
+            <datadir zip="true">https://repo.kodinerds.net/addons/leia/zip/</datadir>
+            <hashes>false</hashes>
+        </dir>
+        <dir minversion="17.0.0" maxversion="18.9.0">
+            <info compressed="true">https://repo.kodinerds.net/addons/krypton/addons.xml</info>
+            <checksum>https://repo.kodinerds.net/addons/krypton/addons.xml.md5</checksum>
+            <datadir zip="true">https://repo.kodinerds.net/addons/krypton/zip/</datadir>
+            <hashes>false</hashes>
+        </dir>
+        <dir minversion="16.0.0" maxversion="18.9.0">
+            <info compressed="true">https://repo.kodinerds.net/addons/jarvis/addons.xml</info>
+            <checksum>https://repo.kodinerds.net/addons/jarvis/addons.xml.md5</checksum>
+            <datadir zip="true">https://repo.kodinerds.net/addons/jarvis/zip/</datadir>
+            <hashes>false</hashes>
+        </dir>
+        <dir minversion="15.0.0" maxversion="18.9.0">
+            <info compressed="true">https://repo.kodinerds.net/addons/isengard/addons.xml</info>
+            <checksum>https://repo.kodinerds.net/addons/isengard/addons.xml.md5</checksum>
+            <datadir zip="true">https://repo.kodinerds.net/addons/isengard/zip/</datadir>
+            <hashes>false</hashes>
+        </dir>
+        <dir minversion="14.0.0" maxversion="18.9.0">
+            <info compressed="true">https://repo.kodinerds.net/addons/helix/addons.xml</info>
+            <checksum>https://repo.kodinerds.net/addons/helix/addons.xml.md5</checksum>
+            <datadir zip="true">https://repo.kodinerds.net/addons/helix/zip/</datadir>
+            <hashes>false</hashes>
+        </dir>
+        <dir minversion="13.0.0" maxversion="18.9.0">
+            <info compressed="true">https://repo.kodinerds.net/addons/gotham/addons.xml</info>
+            <checksum>https://repo.kodinerds.net/addons/gotham/addons.xml.md5</checksum>
+            <datadir zip="true">https://repo.kodinerds.net/addons/gotham/zip/</datadir>
+            <hashes>false</hashes>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Addon repository of the Kodinerds Community</summary>
+        <description lang="en">The 'Nerdsrepo' is the Repository of the german Kodi Community 'Kodinerds' (www.kodinerds.net). Most of the hosted Addons here are active developed and supported by the members of the Community. Nerdsrepo is an unofficial Repository of the Kodi Media Center Software</description>
+        <summary lang="de">Addon Repository der Kodinerds Community</summary>
+        <description lang="de">Das 'Nerdsrepo' ist das Addon Repository der deutschen Kodi-Community 'Kodinerds' (www.kodinerds.net). Die meisten der hier im Nerdsrepo gehosteten Addons werden von den Mitgliedern der Community aktiv entwickelt und unterstützt. Das Nerdsrepo ist ein unoffizielles Repository der Kodi Media Center Software.</description>
+        <disclaimer/>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="repository.kus.allinone" name="[B][COLORdeepskyblue]K.U.S[/COLOR][/B] [COLORwhite]All In One[/COLOR] [COLORdeepskyblue]Repository[/COLOR]" version="3.4" provider-name="[COLORdeepskyblue]K.U.S Team[/COLOR]">
+    <extension point="xbmc.addon.repository" name="[COLORdeepskyblue]K.U.S Addon Repository[/COLOR]">
+        <info compressed="false">https://kodi-unlimited-support.de/repo/data/addons.xml</info>
+        <checksum>https://kodi-unlimited-support.de/repo/data/addons.xml.md5</checksum>
+        <datadir zip="true">https://kodi-unlimited-support.de/repo/data/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>[COLORdeepskyblue]K.U.S-REPOSITORY[/COLOR]</summary>
+        <description>Downloade und installiere Addons von der KODI Unlimited Support-Repository.[CR][CR]Kontakt + Support:[CR][COLORdeepskyblue]https://www.facebook.com/groups/kodiunlimited[/COLOR][CR]Spende:[CR][COLORdeepskyblue]https://www.paypal.me/KodiUnlimited[/COLOR][CR][CR][COLORred]Der Ersteller des Repository, ist nicht der Ersteller der Addons und somit nicht Verantwortlich für dessen Inhalt![/COLOR]</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="repository.myrepo" name="[COLOR red][B]my KODI Add-ons[/B][/COLOR]" version="1" provider-name="me">
+	<extension point="xbmc.addon.repository" name="my Kodi Add-ons Repository">
+		<info compressed="false">http://4309papandy.42web.io/repo/addons.xml</info>
+		<checksum>http://4309papandy.42web.io/repo/addons.xml.md5</checksum>
+		<datadir zip="true">http://4309papandy.42web.io/repo/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install my Add-ons</summary>
+		<description>Download and install addons</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.sgkodi" name="[B][COLORdeepskyblue]SGK[/COLOR][/B][COLORwhite]ODI REPOSITORY[/COLOR]" version="1.1.5" provider-name="SGK">
+    <extension point="xbmc.addon.repository" name="Kodi Addons + Repos">
+		<info compressed="false">http://sgkodi.de/SGK-Repo/Repo-Daten/addons.xml</info>
+		<checksum>http://sgkodi.de/SGK-Repo/Repo-Daten/addons.xml.md5</checksum>
+		<datadir zip="true">http://sgkodi.de/SGK-Repo/Repo-Daten/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>SGK All in One Repository</summary>
+        <description>Eine Sammlung von KODI-Repositories und Addons.[CR][CR]Kontakt + Support:[CR][COLORdeepskyblue]https://www.facebook.com/groups/kodiunlimited[/COLOR][CR]Spenden - Link:[CR][COLORdeepskyblue]https://www.paypal.me/KodiUnlimited[/COLOR]</description>
+        <platform>all</platform>
+		<assets>
+        <screenshot>resources/screenshot1.png</screenshot>
+        <screenshot>resources/screenshot2.png</screenshot>
+		<screenshot>resources/screenshot3.png</screenshot>
+		<icon>icon.png</icon>
+		<fanart>fanart.jpg</fanart>
+		</assets>
+    </extension>
+</addon>
+
+<addon id="repository.xstream" name="xStream Repository" version="1.1.5" provider-name="xStream-Team">
+    <extension point="xbmc.addon.repository" name="xStream Repository">
+        <info compressed="false">https://raw.github.com/streamxstream/xStreamRepo/master/addons.xml</info>
+        <checksum>https://raw.github.com/streamxstream/xStreamRepo/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.github.com/streamxstream/xStreamRepo/master/</datadir>
+        <dir>
+            <info compressed="false">https://raw.github.com/streamxstream/xStreamRepo/master/addons.xml</info>
+            <checksum>https://raw.github.com/streamxstream/xStreamRepo/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.github.com/streamxstream/xStreamRepo/master/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="de">xStream Repository</summary>
+        <description lang="de">Dies ist das offizielle xStream Addon-Verzeichnis.[CR]Bei der Bereitstellung einer neuen Version von xStream wird diese auf Funktionalität geprüft. Sollten dennoch Probleme auftreten benachrichtige bitte das offizielle xStream-Team.</description>
+        <disclaimer lang="de">Die dargestellten Inhalte des in diesem Verzeichnis enthaltenen Addons werden von den Erstellern des Addons weder gehostet oder verbreitet, noch stehen die Ersteller in irgendeiner Beziehung zu den Content-Anbietern.</disclaimer>
+        <platform>all</platform>
+      <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+     </assets>
+    </extension>
+</addon>
+</addons>
